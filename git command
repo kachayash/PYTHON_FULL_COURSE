@@ -1,0 +1,24 @@
+$ git config --global user.name"kachayash"
+$ git config --global user.email"kachayash13@gmail.com"
+
+// config account
+
+//clone 
+//repository ne copy karva mate use thay chhe(repo ne open karva apada pc ma)
+syntax
+git clone "repo link"
+
+
+
+first step add file
+// repo ma changes add karva mate add karva mate
+git add "file name"
+cmd = git add . (all file ne add kari nakhe ek j var ma)
+
+
+// commit file
+cmd = git commit -m "some message"
+
+//push file
+file ne git add kare final step
+cmd = git push origin main
